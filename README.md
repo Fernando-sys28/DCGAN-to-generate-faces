@@ -1,10 +1,9 @@
 # DCGAN-to-generate-faces
 Program in python to generate faces with DCGAN extension of GAN 
 
-## GAN to generate faces.
+## DCGAN to generate faces.
 
-A GAN (Generative Adversarial Network) is a type of artificial intelligence algorithm invented by Ian Goodfellow in 2014. The main focus of GAN is to generate data from scratch, mainly for generating images.
-GANs are models of two neural networks that compete with each other to be more accurate in their predictions. The two neural networks that make up a GAN are the generator and the discriminator. The main job of the discriminator is to look at images and show whether it is a real image or a fake image produced by the generator. Therefore, the job of the generator, as its name suggests, is to generate "fake" images that look like real images. 
+For the project, we used an extension of GAN called DCGAN (Deep Convolutional Generative Adversarial Network), which explicitly uses convolutional and convolutional-transpose layers in the discriminator and generator. The discriminator is composed of convolutional layers with stride, batch normalization layers, and LeakyReLU activations. The input is a 3x64x64 input image, and the output is a scalar probability that the input comes from the real data distribution. The generator is composed of convolutional-transpose layers, batch normalization layers, and ReLU activations. The input is a latent vector z drawn from a standard normal distribution, and the output is an RGB image of 3x64x64. The convolutional-transpose layers allow the latent vector to be transformed into a volume with the same shape as an image.
 
 In the program we use the dataset of celeb_a, using 20,000 celebrity images and 300 epoch, and the result of the code were:
 
