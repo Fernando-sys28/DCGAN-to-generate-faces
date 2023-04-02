@@ -16,12 +16,12 @@ GANs are models of two neural networks that compete with each other to be more a
 
 
 <p align="center">
-  <img src="Fakes_images/Grafica_Dloss_Gloss.jpg" width="400" height="250">
+  <img src="Fakes_images/Grafica_Dloss_Gloss.jpg" width="500" height="250">
 </p>
 
 
 <p align="center">
-  <img src="Fakes_images/r&fimage.jpg" width="400" height="250">
+  <img src="Fakes_images/r&fimage.jpg" width="600" height="250">
 </p>
 
 
