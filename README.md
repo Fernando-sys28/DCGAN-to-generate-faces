@@ -7,5 +7,12 @@ A GAN (Generative Adversarial Network) is a type of artificial intelligence algo
 GANs are models of two neural networks that compete with each other to be more accurate in their predictions. The two neural networks that make up a GAN are the generator and the discriminator. The main job of the discriminator is to look at images and show whether it is a real image or a fake image produced by the generator. Therefore, the job of the generator, as its name suggests, is to generate "fake" images that look like real images. 
 
 <p align="center">
-  <img src="Fakes_images/animation.gif" width="300" height="200">
+  <img src="Fakes_images/animation.gif" width="500" height="500">
 </p>
+
+<p align="center">
+  <img src="Fakes_images/image_95.png" width="500" height="500">
+</p>
+
+
+
